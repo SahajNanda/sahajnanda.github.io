@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #479f48;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #52391d;
+    border-bottom-style: dashed; 
+    border-color: #7d6237;
+    border-width: 4px;
+}
+
+nav a {
+    color: #7cb97c;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #479f48;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #7d6237;
+    padding: 4px;
+    border-top-style: dashed;
+    border-color: #52391d;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7cb97c;
+}
+
+footer a:hover {
+    color: #479f48;
+}
+
+.intro {
+    background-image: url(/images/landscape.bmp);
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #52391d;
+    text-align: center;
+    font-family: 'Pixelify Sans';
+    font-size: 32px;
+}
+
+.card {
+    font-family: 'Finger Paint';
+}
+
+.card>h3 {
+    font-size: 24px;
+}
+
+.intro>h1, .intro>h2 {
+    background-color: #7cb97c;
+    width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.intro img {
+    width: 10%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.about {
+    background-color: #7cb97c;
+    padding: 20px;
+}
+
+.about>img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.about p {
+    text-align: center;
+}
+
+.about a {
+    color: #7cb97c;
+    text-decoration: none;
+}
+
+.about a:hover {
+    color: #479f48;
+}
+
+hr {
+    border-style: dashed;
+    border-color: #52391d;
+    border-width: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.card {
+    background-color: #7d6237;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    border-style: solid;
+    border-color: #52391d;
+    border-radius: 10px;
+}
+
+.card>h3 {
+    text-align: center;
+}
+
+.card img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.card ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.card dl {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact {
+    padding-left: 20px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input {
+    width: 30%;
+}
+
+textarea {
+    width: 75%;
+}
